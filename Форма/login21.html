@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <title>Форма входу</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme.css">
+</head>
+<body>
+    <div class="form-body without-side">
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <img src="images/graphic3.svg" alt="">
+                </div>
+            </div>
+            <div class="form-holder" method="post" id="ajax_forma">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Вхід в обліковий запис</h3>
+                        <form>
+                            <input class="form-control" type="text" name="username" placeholder="E-mail " required>
+                            <input class="form-control" type="password" name="password" placeholder="Пароль" required>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">Увійти</button> <a href=" ">Забули пароль?</a>
+                            </div>
+                        </form>
+                        <div class="other-links">
+                            <div class="text">Або зареєструйтеся за допомогою</div>
+                            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+                        </div>
+                        <div class="page-links">
+                            <a href="register21.html">Реєстрація</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="result_forma"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
